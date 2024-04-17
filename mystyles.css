@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: ivory;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: forestgreen;
+}
+
+.common{
+    font-family:'Times New Roman', Times, serif
+    position: absolute;
+}
+
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: lightgreen;
+    font-style: italic;
+}
+
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 7px solid teal;
+}
